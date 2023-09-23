@@ -1,11 +1,13 @@
 [package]
 name = "cryptography-cffi"
-version = "0.1.0"
+version = "41.0.4"
 authors = ["The cryptography developers <cryptography-dev@python.org>"]
 edition = "2021"
 publish = false
 # This specifies the MSRV
 rust-version = "1.56.0"
+repository = "https://github.com/pyca/cryptography"
+description = "Python Cryptography version 41.0.4"
 
 [dependencies]
 pyo3 = { version = "0.18", features = ["abi3-py37"] }

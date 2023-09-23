@@ -66,7 +66,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "cryptography-cffi"
-version = "0.1.0"
+version = "41.0.4"
 dependencies = [
  "cc",
  "openssl-sys",
@@ -75,7 +75,7 @@ dependencies = [
 
 [[package]]
 name = "cryptography-openssl"
-version = "0.1.0"
+version = "41.0.4"
 dependencies = [
  "foreign-types",
  "foreign-types-shared",
@@ -85,13 +85,11 @@ dependencies = [
 
 [[package]]
 name = "cryptography-rust"
-version = "0.1.0"
+version = "41.0.4"
 dependencies = [
  "asn1",
  "cc",
- "cryptography-cffi",
- "cryptography-openssl",
- "cryptography-x509",
+ "foreign-types",
  "foreign-types-shared",
  "once_cell",
  "openssl",
@@ -103,7 +101,7 @@ dependencies = [
 
 [[package]]
 name = "cryptography-x509"
-version = "0.1.0"
+version = "41.0.4"
 dependencies = [
  "asn1",
 ]
